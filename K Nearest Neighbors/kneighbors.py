@@ -1,9 +1,15 @@
 '''
 This class is the implementation of K Nearest Neighbors algorithm for Classification. 
-I will also include some of the hyperparameters like weights and distance metric.
+
+I will also include some of the hyperparameters like weights and distance metric p.
+p = 2 by default which is Euclidean Distance, p=1 is Manhattan Distance
+Weights can values 'uniform' or 'distance' where each neighbor will have an impact on the classification based on how closer they are in terms of the distance metric
+K is the number of nearest neighbors one wants to consider 
+
 '''
 
 import numpy 
+from collections import Counter
 
 
 class KNearestNeighbors():
@@ -26,5 +32,15 @@ class KNearestNeighbors():
 
 
 	def classify():
+		# calculate distances from data point to all the points in training set
+		distances = [minkowski(X, x_train) for x_train in X_train]
+
+		idx = np.argsort(distances)[:self.k]	
+
+		labels = [X_train[i] for i in idx]
+
+		predicted_class = Counter(labels).most_common(1)[0][0]
+
+		return predicted_class
 
 
