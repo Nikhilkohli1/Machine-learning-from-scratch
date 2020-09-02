@@ -1,11 +1,11 @@
 # Machine-learning-from-scratch
 
 Underlining Mathematics of a Machine Learning Algorithm is the most important thing we need to know while learning it.
-And the best way to learn it is by implementing it from scratch. So in this repository, I will be implementing most of the common Machine Learning algorithms that we use from scratch without using sklearn etc. 
+And the best way to learn it is by implementing it from scratch using only built-in python libraries such as numpy. So in this repository, I will be implementing most of the common Machine Learning algorithms that we use from scratch without using sklearn etc. 
 
-## Here are some of the Algorithms that I plan to implement - 
+## Here are some of the Algorithms that I am planning to implement from Scratch- 
 
-- 1. K- Nearest Neighbors (KNN)
+- 1. K- Nearest Neighbors (KNN) - [KNN Implementation from Scratch](https://github.com/Nikhilkohli1/Machine-learning-from-scratch/tree/master/K%20Nearest%20Neighbors)
 - 2. Linear Regression
 - 3. Logistic Regression
 - 4. Support Vector Machines (SVM)
