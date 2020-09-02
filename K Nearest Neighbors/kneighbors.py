@@ -2,11 +2,9 @@
 Created by: Nikhil Kohli
 
 This class is the implementation of K-Nearest Neighbors algorithm for Classification from scratch by using only built in python functions. 
-I will also include some of the hyperparameters like weights and distance metric p.
-
-p = 2 by default which is Euclidean Distance, p=1 is Manhattan Distance
-
-K is the number of nearest neighbors one wants to consider 
+I have also included some of the hyperparameters like K and distance metric p.
+p = 2 by default which is Euclidean Distance, p=1 is for Manhattan Distance
+K is the number of nearest neighbors one wants to consider for prediction
 
 '''
 

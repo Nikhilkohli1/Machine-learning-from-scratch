@@ -39,5 +39,10 @@ def minkowski(Q, R, p):
 	return distance
 
 
+def accuracy(Y_true, Y_pred):
+	acc = np.sum(Y_true == Y_pred) / len(Y_true)
+	return acc 
+
+
 
 
