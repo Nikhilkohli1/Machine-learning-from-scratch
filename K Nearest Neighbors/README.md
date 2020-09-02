@@ -10,8 +10,8 @@ K-Nearest Neighbors is a ***non-probabilistic Supervised learning algorithm*** i
 
 - Distance metric used is ***'minkowski'*** which further drills down to few types of distance functions depending upon the value of the hyperparameter 'p'. 
 
-	p=1 corresponds to Manhattan Distance
-	p=2 corresponds to Euclidean Distance
+	- p=1 corresponds to Manhattan Distance
+	- p=2 corresponds to Euclidean Distance
 
 - It also has a parameter weights which by default is 'uniform' but can be set to 'distance'. This assigns weights to the contributions of the neighbors, so that the nearer neighbors contribute more to the average than the more distant ones. For example, a common weighting scheme consists in giving each neighbor a weight of 1/d, where d is the distance to the neighbor.
 
