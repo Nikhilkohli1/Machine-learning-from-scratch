@@ -13,7 +13,7 @@ from collections import Counter
 from ml_utils import minkowski
 
 
-class KNearestNeighbors():
+class KNearestNeighbors:
 	
 	def __init__(self, k=3, p_metric=2):
 		self.k = k
