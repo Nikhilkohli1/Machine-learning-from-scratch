@@ -10,7 +10,7 @@ K is the number of nearest neighbors one wants to consider for prediction
 
 class LinearRegression:
 
-	def __init__(self, alpha=0.001, num_iters=2000):
+	def __init__(self, alpha=0.0001, num_iters=2000):
 		self.alpha = alpha
 		self.num_iters = num_iters
 		self.weights = None
