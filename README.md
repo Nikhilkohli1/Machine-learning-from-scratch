@@ -12,6 +12,8 @@ And the best way to learn it is by implementing it from scratch using only built
 - Decision Trees
 - K-Means Clustering
 - Naive Bayes
+- Random Forest
+- Neural Networks
 
 
 ## Agenda
