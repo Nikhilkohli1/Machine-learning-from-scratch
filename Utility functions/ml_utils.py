@@ -44,6 +44,8 @@ def accuracy(Y_true, Y_pred):
 	acc = np.sum(Y_true == Y_pred) / len(Y_true)
 	return acc 
 
-
+def mse(Y_true, Y_pred):
+	mse = np.mean((Y_true - Y_pred)**2)
+	return mse
 
 
