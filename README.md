@@ -6,12 +6,14 @@ And the best way to learn it is by implementing it from scratch using only built
 ## Here are some of the Algorithms that I am planning to implement from Scratch- 
 
 - K- Nearest Neighbors (KNN) - [KNN Implementation from Scratch](https://github.com/Nikhilkohli1/Machine-learning-from-scratch/tree/master/K%20Nearest%20Neighbors)
-- Linear Regression
+- Linear Regression - [Linear Regression from Scratch](https://github.com/Nikhilkohli1/Machine-learning-from-scratch/tree/master/Linear%20Regression)
 - Logistic Regression
 - Support Vector Machines (SVM)
 - Decision Trees
 - K-Means Clustering
 - Naive Bayes
+- Random Forest
+- Neural Networks
 
 
 ## Agenda
