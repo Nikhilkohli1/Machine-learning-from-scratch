@@ -13,6 +13,8 @@ K-Nearest Neighbors is a ***non-probabilistic Supervised learning algorithm*** i
 	- p=1 corresponds to Manhattan Distance
 	- p=2 corresponds to Euclidean Distance
 
+- In order to compute the nearest neighbors, KNN has a hyperparameter known as 'Algorithm'. This can take values from 'auto', 'kd_tree', 'ball_tree', 'brute'. Brute force will result in the most accurate results for the nearest neighbors as it considers all the data points to find the nearest ones but it is not computationaly efficient. KDTree uses Median for the split whereas BallTree uses centroid. 
+
 - It also has a parameter weights which by default is 'uniform' but can be set to 'distance'. This assigns weights to the contributions of the neighbors, so that the nearer neighbors contribute more to the average than the more distant ones. For example, a common weighting scheme consists in giving each neighbor a weight of 1/d, where d is the distance to the neighbor.
 
 
